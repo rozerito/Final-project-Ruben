@@ -1,0 +1,100 @@
+/* header-buttons */
+
+.header >.right-column >.buttons-wrapper{
+    width: 630px;
+    height: 90px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.header >.right-column >.buttons-wrapper> .buttons{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.btn {
+    height: 70px;
+    font-size: 1.5em;
+    background-color: #39393e;
+    border-color: transparent;
+    color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn i {
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 2em;
+    color: #32cd32;
+   
+}
+
+.btnMagnifier{
+    height: 70px;
+    font-size: 2em;
+    background-color: transparent;
+    border-color: transparent;
+    color: #808080;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* main-buttons */
+.main> .left-column > .buttons-wrapper{
+    width: 675px;
+}
+#Mbtn{
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    height: 70px;
+    background-color: #62c962;
+    border-radius: 4px;
+    border-color: transparent;
+    margin-right: 15px;
+}
+
+#Mbtn2 {
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 2em;
+    height: 70px;
+    background-color: #000000;
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+/* footer-buttons */
+.fbtn{
+    font-size: 1.3em;
+    color: whitesmoke;
+    background-color: #4e4e55;
+    margin-top: 2px;
+    height: 67px;
+    width: 382px;
+    border-left: 5px;
+    border-color: transparent;
+    border-radius: 1.5px;
+    
+
+}
+
+.fbtn b{
+    font-family: 'Jost', sans-serif;
+}
+
+
+

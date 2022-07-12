@@ -1,0 +1,10 @@
+.footer> .footer-buttons-wrapper > .footer-buttons{
+    background-color: #808080;
+    height: 67px;
+    margin-left: -8px;
+    margin-right: -8px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
